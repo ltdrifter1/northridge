@@ -28,16 +28,16 @@ export async function POST(request: Request) {
   const { name, email, message } = parsed.data;
   const resend = new Resend(apiKey);
   const from =
-    process.env.RESEND_FROM_EMAIL ?? "Northridge Advisory <onboarding@resend.dev>";
+    process.env.RESEND_FROM_EMAIL ?? "Northridge <onboarding@resend.dev>";
 
   try {
     const { error } = await resend.emails.send({
       from,
       to: CONTACT_TO,
       replyTo: email,
-      subject: `Northridge Advisory — inquiry from ${name}`,
+      subject: `Northridge — inquiry from ${name}`,
       text: [
-        `New inquiry from the Northridge Advisory site`,
+        `New inquiry from the Northridge site`,
         ``,
         `Name: ${name}`,
         `Email: ${email}`,

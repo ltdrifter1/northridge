@@ -17,8 +17,8 @@ export default function ContactPage() {
           Start a conversation.
         </h1>
         <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
-          Tell us a little about your business and what you’re trying to get
-          clearer on. We’ll reply by email.
+          Tell us about your business and where the numbers feel unclear—advisory,
+          {` ${site.product}`}, or both. We’ll reply by email.
         </p>
       </FadeIn>
 

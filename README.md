@@ -1,6 +1,6 @@
-# Northridge Advisory
+# Northridge
 
-Premium financial strategy and Fractional CFO site.
+Finance practice for owner-led businesses ($1M–$50M): CFO/controller advisory and **KeystoneOS**, a financial intelligence engine.
 
 ## Stack
 
@@ -29,7 +29,7 @@ npm start
 
 - `/` — Home
 - `/about` — About
-- `/services` — Services
+- `/services` — Advisory + KeystoneOS
 - `/contact` — Contact (email form)
 
 ## Contact email

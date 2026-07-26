@@ -12,10 +12,10 @@ export function CtaBand() {
             className="pointer-events-none absolute -right-16 -top-16 size-56 rounded-full bg-teal/30 blur-3xl"
           />
           <h2 className="relative max-w-lg font-serif text-3xl tracking-tight sm:text-4xl">
-            Ready for clearer financial leadership?
+            Ready for clearer numbers?
           </h2>
           <p className="relative mt-4 max-w-md text-sm leading-relaxed text-paper/70">
-            Share a bit about your business. We’ll reply by email.
+            Tell us about your business. We’ll reply by email.
           </p>
           <div className="relative mt-8">
             <Button
