@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/motion/fade-in";
+import { site } from "@/lib/content";
 
 export function Approach() {
   return (
@@ -7,25 +8,26 @@ export function Approach() {
         <FadeIn>
           <p className="text-sm font-medium tracking-wide text-teal">Approach</p>
           <h2 className="mt-3 font-serif text-3xl tracking-tight text-ink sm:text-4xl">
-            Less theatre. More judgment.
+            A finance expert who builds the tools.
           </h2>
           <p className="mt-5 max-w-lg text-base leading-relaxed text-muted-foreground">
-            Northridge Advisory brings deep reporting and accounting experience
-            into executive-level strategy—so finance supports the business, not
-            the other way around.
+            {site.name} starts with the business problem—then brings CFO and
+            controller judgment, and {site.product} when you need a system that
+            actually fits how you operate.
           </p>
         </FadeIn>
 
         <FadeIn delay={0.1}>
           <ul className="space-y-5 text-sm leading-relaxed text-muted-foreground">
             <li className="border-l-2 border-teal/40 pl-4">
-              Start with the business problem, not a service menu.
+              Built for owner-led businesses roughly $1M–$50M in revenue.
             </li>
             <li className="border-l-2 border-teal/40 pl-4">
-              Build the reporting and rhythm leaders will actually trust.
+              Advisory first—reporting, cash, and operating rhythm.
             </li>
             <li className="border-l-2 border-teal/40 pl-4">
-              Stay close enough to guide decisions—without adding process weight.
+              {site.product} when off-the-shelf software stops matching the
+              business.
             </li>
           </ul>
         </FadeIn>

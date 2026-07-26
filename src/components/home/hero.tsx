@@ -9,7 +9,6 @@ import { site } from "@/lib/content";
 export function Hero() {
   return (
     <section className="relative isolate overflow-hidden">
-      {/* Full-bleed atmospheric plane */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_120%_80%_at_70%_-20%,#cfe4df_0%,transparent_55%),linear-gradient(180deg,#fbfcfb_0%,#f0f5f3_48%,#e8f0ed_100%)]" />
         <div className="absolute inset-y-0 right-0 w-1/2 bg-[radial-gradient(ellipse_at_80%_40%,rgb(31_107_99_/_0.14),transparent_60%)]" />
@@ -30,7 +29,6 @@ export function Hero() {
             {site.name}
           </p>
 
-          {/* Signature precision line */}
           <motion.div
             className="mt-7 h-px origin-left bg-gradient-to-r from-teal via-teal/50 to-transparent"
             initial={{ scaleX: 0, opacity: 0 }}
@@ -43,19 +41,21 @@ export function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.18, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 max-w-[18ch] text-[clamp(1.5rem,3.2vw,2.15rem)] font-medium leading-[1.25] tracking-[-0.02em] text-ink"
+          className="mt-10 max-w-[20ch] text-[clamp(1.5rem,3.2vw,2.15rem)] font-medium leading-[1.25] tracking-[-0.02em] text-ink"
         >
-          Financial strategy that turns numbers into executive decisions.
+          Financial clarity for growing businesses—and tools built to keep it
+          that way.
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.28, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg"
+          className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg"
         >
-          Calm, precise financial leadership for operators who need clarity—not
-          more noise.
+          CFO and controller advisory for owner-led companies—plus{" "}
+          {site.product}, our financial intelligence engine, when the software
+          needs to fit the business.
         </motion.p>
 
         <motion.div
@@ -78,7 +78,7 @@ export function Hero() {
             size="lg"
             className="h-12 border-ink/15 bg-white/50 px-6 text-[0.95rem] backdrop-blur-sm hover:bg-white/80"
           >
-            View services
+            Explore services
           </Button>
         </motion.div>
       </div>

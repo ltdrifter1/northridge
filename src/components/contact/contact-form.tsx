@@ -24,7 +24,7 @@ async function sendViaFormSubmit(values: ContactPayload) {
       name: values.name,
       email: values.email,
       message: values.message,
-      _subject: `Northridge Advisory — inquiry from ${values.name}`,
+      _subject: `Northridge — inquiry from ${values.name}`,
       _replyto: values.email,
       _template: "table",
       _captcha: "false",

@@ -7,7 +7,7 @@ export function Outcomes() {
       <FadeIn>
         <p className="text-sm font-medium tracking-wide text-teal">What changes</p>
         <h2 className="mt-3 max-w-xl font-serif text-3xl tracking-tight text-ink sm:text-4xl">
-          Simple outcomes. Better decisions.
+          Clarity for owner-led businesses.
         </h2>
       </FadeIn>
 
