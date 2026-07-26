@@ -23,10 +23,10 @@ export default function ServicesPage() {
         </p>
       </FadeIn>
 
-      <div className="mt-16 grid gap-10 md:grid-cols-2">
+      <div className="mt-16 grid gap-12 md:grid-cols-2">
         {pillars.map((pillar, index) => (
           <FadeIn key={pillar.name} delay={index * 0.06}>
-            <article className="h-full rounded-2xl border border-border/80 bg-white/60 p-7 backdrop-blur-sm">
+            <article className="h-full border-t border-teal/30 pt-7">
               <p className="text-xs font-medium uppercase tracking-[0.14em] text-teal">
                 {pillar.name}
               </p>
