@@ -31,3 +31,10 @@ npm start
 - `/about` — About
 - `/services` — Services
 - `/contact` — Contact (email form)
+
+## Contact email
+
+Submissions go to **lp.guthrie@outlook.com**.
+
+1. **Default (no setup):** browser sends via FormSubmit. The first submission triggers an activation email to that inbox — confirm once.
+2. **Production (recommended):** set `RESEND_API_KEY` (see `.env.example`). The API route then delivers through Resend.
